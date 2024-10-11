@@ -1,0 +1,15 @@
+{
+    "name": "Graviton API V1",
+    "modules": [
+        {
+            "name": "404 Error",
+            "source": "error-404.js",
+            "enabled": true
+        },
+        {
+            "name": "Default Error Handler",
+            "source": "api-error.js",
+            "enabled": true
+        }
+    ]
+}
